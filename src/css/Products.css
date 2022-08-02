@@ -1,0 +1,108 @@
+.productsadd{
+    margin: 30px 0 30px 30px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 3px solid #E1B107;
+    width: 200px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.productslink{
+    color: #E1B107;
+    font-weight: 500;
+    display: contents;
+    font-size: 18px;
+}
+
+
+.productscard{
+    height: 120px;
+    margin: 50px 0;
+    padding: 10px 20px;
+    background: #E1B107;
+    border-radius: 0px 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    align-items: center;
+}
+
+.productscardbtn{
+    margin: 10px 5px;
+    padding: 5px 20px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 3px solid #E1B107;
+    width: 120px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.productsimg{
+    width: 70px;
+    height: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 20px;
+}
+
+.productsbook{
+    font-weight: 700;
+    font-size: 28px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.productsprice{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@media (max-width: 468px)
+{
+    .productsimg{
+        display: inline-flex;
+        width: 50px;
+        height: 80px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0 20px;
+    }
+    .productsbook{
+        font-weight: 700;
+        font-size: 24px;
+        margin: 2px 0;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .productsprice{
+        margin: 2px 0;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .productscardbtn{
+        margin: 5px;
+        padding: 2px 10px;
+        font-weight: 500;
+        border-radius: 20px;
+        border: 1px solid #E1B107;
+        width: 70px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .productscard{
+        height: 240px;
+        margin: 30px 20px;
+        justify-content: center;
+    }
+
+    .bookdetail{
+        text-align: center;
+    }
+
+    body{
+        overflow-x: hidden !important;
+        overflow-y: visible !important;
+      }
+
+    .productstitle{
+        margin-left: 20px;
+    }
+}
