@@ -4,6 +4,9 @@
     color: black;
     text-align: center;
 }
+.navbar{
+    background-color: #E1B107;
+}
 .avatar {
     vertical-align: middle;
     width: 50px;

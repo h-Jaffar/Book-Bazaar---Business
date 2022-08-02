@@ -5,7 +5,7 @@ function Navbar() {
 
   return (
     <>
-        <nav className="navbar navbar-expand-lg navbar-light bg-warning">
+        <nav className="navbar navbar-expand-lg navbar-light">
   <div className="container-fluid">
   <img src="https://wallpaperaccess.com/full/2213424.jpg" alt="Avatar" className="avatar"/>
     <a className="navbar-brand menutitle" href="/">
