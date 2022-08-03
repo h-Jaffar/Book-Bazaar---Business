@@ -15,21 +15,21 @@ function StoreDetail() {
         </div>
         <div className="row text-center">
           <div className="col-md-6">
-            <h5 className="inputtext">Name</h5>
+            <h5 className="inputtext">Store Name</h5>
             <input type="text" name="contact" value="" className="form-control profileinput" placeholder="Ali Book Store"/>
           </div>
           <div className="col-md-6">
-          <h5 className="inputtext">Email</h5>
+          <h5 className="inputtext">Store Email</h5>
             <input type="text" name="contact" value="" className="form-control profileinput" placeholder="alibookstore@gmail.com"/>
           </div>
         </div>
         <div className="row text-center">
           <div className="col-md-6">
-            <h5 className="inputtext">Contact Number</h5>
+            <h5 className="inputtext">Store Contact Number</h5>
             <input type="text" name="contact" value="" className="form-control profileinput" placeholder="XXXX-XXXXXXX"/>
           </div>
           <div className="col-md-6">
-          <h5 className="inputtext">Address</h5>
+          <h5 className="inputtext">Store Address</h5>
             <input type="text" name="contact" value="" className="form-control profileinput" placeholder="2A1, PGECHS, Punjab, Pakistan"/>
           </div>
         </div>

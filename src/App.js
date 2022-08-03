@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Routes>
-      <Route path = "/" element =  {<Navbar/>}></Route>
+      <Route path = "/" element =  {<Products/>}></Route>
       <Route path = "/products" element =  {<Products/>}></Route>
       <Route path = "/storedetail" element =  {<StoreDetail/>}></Route>
       <Route path = "/addproduct" element =  {<AddProduct/>}></Route>

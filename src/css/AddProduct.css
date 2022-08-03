@@ -39,7 +39,8 @@
 
   .sduploadimg{
     width: 160px;
-    border: 1px solid #E1B107;
+    border: 3px solid #E1B107;
     border-radius: 25px;
     margin: 20px 0 0;
+    font-weight: bold;
   }

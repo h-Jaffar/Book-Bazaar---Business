@@ -4,12 +4,12 @@ import '../css/Products.css'
 
 function Products() {
   var books= [{
-    title: 'xyz',
+    title: 'Your Book Title Here',
     img:"https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
     price: 12
   },
   {
-    title: 'abc',
+    title: 'Your Second Book Title Here',
     img:"https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
     price: 10
   }
@@ -44,7 +44,7 @@ var items = books.map((book) =>
 
             <div className="row text-end">
               <div className="col-md-12">
-              <button className="btn btn-light productsadd"><i className="fa-solid fa-plus"></i><a className="productslink" href="/addproduct"> Add Products</a></button>
+              <button className="btn productsadd"><i className="fa-solid fa-plus"></i><a className="productslink" href="/addproduct"> Add Products</a></button>
               </div>
             </div>
 

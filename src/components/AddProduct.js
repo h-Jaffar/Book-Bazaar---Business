@@ -11,7 +11,7 @@ function AddProduct() {
         
           <div className="row justify-content-center">
             <div className="col-md-12">
-              <h3 className="sdtitle" >Product Details</h3>
+              <h3 className="sdtitle" >Add Book Details</h3>
               <form className="" action="index.html" method="post">
               <input type="text" name="name" value="" className="form-control sdform" placeholder="Book Name"/>
               <br/>

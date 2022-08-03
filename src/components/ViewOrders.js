@@ -5,48 +5,48 @@ import Navbar from "./Navbar";
 function ViewOrders() {
 
   var pending= [{
-    title: 'Book 1',
+    title: 'Your Book Title Here',
     img:"https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
     price: 12
   },
   {
-    title: 'Book 2',
+    title: 'Your Another Book Title Here',
     img:"https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
     price: 10
   }
 ]
 
 var approved= [{
-  title: 'Book 3',
+  title: 'Your Book Title Here',
   img:"https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
   price: 12
 },
 {
-  title: 'Book 4',
+  title: 'Your Another Book Title Here',
   img:"https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
   price: 10
 }
 ]
 
 var complete= [{
-  title: 'Book 5',
+  title: 'Your Book Title Here',
   img:"https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
   price: 12
 },
 {
-  title: 'Book 6',
+  title: 'Your Another Book Title Here',
   img:"https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
   price: 10
 }
 ]
 
 var cancelled= [{
-  title: 'Book 7',
+  title: 'Your Book Title Here',
   img:"https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
   price: 12
 },
 {
-  title: 'Book 8',
+  title: 'Your Another Book Title Here',
   img:"https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
   price: 10
 }
@@ -65,7 +65,7 @@ var pendingorders = pending.map((order) =>
   <p className="ordersprice">PKR {order.price}</p>
 </div>
 
-<div className="col-md-6 orderdetail text-end">
+<div className="col-md-6">
   <button className="btn btn-light orderscardbtn">View</button>
   <button className="btn btn-light orderscardbtn">Approve</button>
   <button className="btn btn-light orderscardbtn">Cancel</button>
@@ -86,7 +86,7 @@ var approvedorders = approved.map((order) =>
   <p className="ordersprice">PKR {order.price}</p>
 </div>
 
-<div className="col-md-6 orderdetail text-end">
+<div className="col-md-6">
   <button className="btn btn-light orderscardbtn">View</button>
   <button className="btn btn-light orderscardbtn">Complete</button>
   <button className="btn btn-light orderscardbtn">Cancel</button>
@@ -140,7 +140,7 @@ var cancelledorders = cancelled.map((order) =>
 
       <div className="row justify-content-center">
         <div className="col-md-8 text-center">
-          <h3 className="mt-5">Your Orders</h3>
+          <h3 className="mt-5 orderlabel">Your Orders</h3>
           <nav>
             <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
               <button

@@ -4,8 +4,10 @@
     border-radius: 30px;
     border: 3px solid #E1B107;
     width: 200px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #E1B107;
+    /* text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); */
 }
+
 
 .productslink{
     color: #E1B107;
@@ -13,11 +15,12 @@
     display: contents;
     font-size: 18px;
 }
-
+.productslink:hover{
+    color: black;
+}
 
 .productscard{
-    height: 120px;
-    margin: 50px 0;
+    margin: 40px 0;
     padding: 10px 20px;
     background: #E1B107;
     border-radius: 0px 30px;
@@ -48,6 +51,10 @@
     font-size: 28px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.productstitle{
+    font-weight: bold;
+    font-size: 24px;
+}
 
 .productsprice{
     font-weight: 500;
@@ -62,6 +69,9 @@
         height: 80px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 0 20px;
+    }
+    .productsadd{
+        margin-right: 20px;
     }
     .productsbook{
         font-weight: 700;
@@ -104,5 +114,6 @@
 
     .productstitle{
         margin-left: 20px;
+
     }
 }
