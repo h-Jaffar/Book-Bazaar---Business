@@ -15,7 +15,9 @@ function AddProduct() {
               <form className="" action="index.html" method="post">
               <input type="text" name="name" value="" className="form-control sdform" placeholder="Book Name"/>
               <br/>
-              <input type="text" name="address" value="" className="form-control sdform" placeholder="Author Name"/>
+              <input type="text" name="authorName" value="" className="form-control sdform" placeholder="Author Name"/>
+              <br/>
+              <input type="text" name="description" value="" className="form-control sdform" placeholder="Description"/>
               <br/>
               <input type="text" name="contact" value="" className="form-control sdform" placeholder="Price"/>
               <br/>

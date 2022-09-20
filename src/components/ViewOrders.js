@@ -60,16 +60,19 @@ var pendingorders = pending.map((order) =>
   <img className="ordersimg" src={order.img} alt=""/>
 </div>
 
-<div className="col-md-4 orderdetail">
+<div className="col-md-10 orderdetail">
   <p className="ordersname">{order.title}</p>
   <p className="ordersprice">PKR {order.price}</p>
-</div>
-
-<div className="col-md-6">
   <button className="btn btn-light orderscardbtn">View</button>
   <button className="btn btn-light orderscardbtn">Approve</button>
   <button className="btn btn-light orderscardbtn">Cancel</button>
 </div>
+
+{/* <div className="col-md-6">
+  <button className="btn btn-light orderscardbtn">View</button>
+  <button className="btn btn-light orderscardbtn">Approve</button>
+  <button className="btn btn-light orderscardbtn">Cancel</button>
+</div> */}
 </div>
 
 );
@@ -102,14 +105,14 @@ var completeorders = complete.map((order) =>
   <img className="ordersimg" src={order.img} alt=""/>
 </div>
 
-<div className="col-md-4 orderdetail">
+<div className="col-md-7 orderdetail">
   <p className="ordersname">{order.title}</p>
   <p className="ordersprice">PKR {order.price}</p>
 </div>
 
-<div className="col-md-6 orderdetail text-end">
+<div className="col-md-3 orderdetail text-end">
   <button className="btn btn-light orderscardbtn">View</button>
-  <button className="btn btn-light orderscardbtn">Cancel</button>
+  {/* <button className="btn btn-light orderscardbtn">Cancel</button> */}
 </div>
 </div>
 

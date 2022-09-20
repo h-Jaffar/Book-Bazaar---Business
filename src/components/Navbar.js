@@ -19,17 +19,20 @@ function Navbar() {
           <a className="nav-link menuitems" aria-current="page" href="/products"><i class="fa-solid fa-book"></i><br/>Products</a>
         </li>
         <li className="nav-item">
+          <a className="nav-link menuitems" href="/storedetail"><i class="fa-solid fa-building-user"></i><br/>Add Store</a>
+        </li>
+        <li className="nav-item">
           <a className="nav-link menuitems" href="/storedetail"><i class="fa-solid fa-building-user"></i><br/>Store Detail</a>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link menuitems" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           <i className="fa-solid fa-bell"></i><br/>Notifications
           </a>
-          <ul className="dropdown-menu dropdown-style" aria-labelledby="navbarDropdown">
+          {/* <ul className="dropdown-menu dropdown-style" aria-labelledby="navbarDropdown">
             <li><a className="dropdown-item dropdown-style-item" href="#">Order is dispatched</a></li>
             <li><a className="dropdown-item dropdown-style-item" href="#">Your order is confirmed</a></li>
             <li><a className="dropdown-item dropdown-style-item" href="#">Thanks for order</a></li>
-          </ul>
+          </ul> */}
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link menuitems" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
